@@ -1,0 +1,724 @@
+<?xml version="1.0"?>
+<ArrayOfTestCollectionRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TestCollectionRecord Name="WindowsToGo UEFI USB Class Entry Test" Guid="1cbb1e92-cd9b-4c54-b34f-67b91d3527c4" EstimatedRuntimeInSeconds="300" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.USBBoot</FeatureMapped>
+    <DevelopmentPhaseSet>BringUp</DevelopmentPhaseSet>
+    <TestClassification>Development</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="HEVC SW-DRM Test 7" Guid="fd877ad6-e87d-4f66-a06e-c75117313846" EstimatedRuntimeInSeconds="900" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.Graphics</FeatureMapped>
+    <DevelopmentPhaseSet>DevelopmentAndIntegration</DevelopmentPhaseSet>
+    <TestClassification>Development</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="HEVC SW-DRM Test 9" Guid="2f533b4b-b10a-4ebc-9cbb-f139d027470a" EstimatedRuntimeInSeconds="900" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.Graphics</FeatureMapped>
+    <DevelopmentPhaseSet>DevelopmentAndIntegration</DevelopmentPhaseSet>
+    <TestClassification>Development</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="USB3 Termination" Guid="02af7b0a-8859-414c-9061-bbf9c1b60c73" EstimatedRuntimeInSeconds="300" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.SystemUSB</FeatureMapped>
+    <DevelopmentPhaseSet>DevelopmentAndIntegration</DevelopmentPhaseSet>
+    <TestClassification>Development</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="Signed Driver Check (CheckLogo)" Guid="7e9473e9-aa0f-4fbb-86c8-2d5d87003521" EstimatedRuntimeInSeconds="300" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.SignedDrivers</FeatureMapped>
+    <DevelopmentPhaseSet>Manufacturing</DevelopmentPhaseSet>
+    <TestClassification>Scenario</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="BitLocker Drive Encryption USB BIOS Logo Test" Guid="39d176bc-059b-43aa-ae26-e530bdec23bf" EstimatedRuntimeInSeconds="120" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Manual</ScheduleOptionSet>
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.USBBoot</FeatureMapped>
+    <DevelopmentPhaseSet>DevelopmentAndIntegration</DevelopmentPhaseSet>
+    <TestClassification>Development</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="Assessment - Boot Performance (Fast Startup)" Guid="d1408edb-a6f1-4f70-893f-0dddb24da463" EstimatedRuntimeInSeconds="7200" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Client.CPU</FeatureMapped>
+    <DevelopmentPhaseSet>TuningAndValidation</DevelopmentPhaseSet>
+    <TestClassification>Benchmark</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="WNGlitchfree HD Video Playback on AC ( Manual on mobile systems )" Guid="0933db65-5c40-42d9-874e-763724c9e464" EstimatedRuntimeInSeconds="1200" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Client.VideoPlayback</FeatureMapped>
+    <DevelopmentPhaseSet>TuningAndValidation</DevelopmentPhaseSet>
+    <TestClassification>Scenario</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="BitLocker Tpm and Recovery password tests for NONAOAC devices with PCR[7]" Guid="8c7a62bb-7f02-4a16-b37d-711cc9026e17" EstimatedRuntimeInSeconds="900" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.TPM.NonCS</FeatureMapped>
+    <DevelopmentPhaseSet>DevelopmentAndIntegration</DevelopmentPhaseSet>
+    <DevelopmentPhaseSet>Support</DevelopmentPhaseSet>
+    <TestClassification>Scenario</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="USB Internal Device Idle Test - Compat" Guid="06e1e2d7-ac7c-4ded-82f7-9c6a31386880" EstimatedRuntimeInSeconds="120" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.USBDevice</FeatureMapped>
+    <DevelopmentPhaseSet>DevelopmentAndIntegration</DevelopmentPhaseSet>
+    <TestClassification>Development</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="Assessment - Memory Footprint" Guid="250551bc-9688-4a01-8eed-ac0127cb9045" EstimatedRuntimeInSeconds="3600" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Client.CPU</FeatureMapped>
+    <DevelopmentPhaseSet>TuningAndValidation</DevelopmentPhaseSet>
+    <TestClassification>Benchmark</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="USB Type-C Connection Exerciser Loop Test" Guid="3f047658-3c7c-45a8-a2d9-4561f07e45cc" EstimatedRuntimeInSeconds="1200" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.SystemUSB</FeatureMapped>
+    <DevelopmentPhaseSet>BringUp</DevelopmentPhaseSet>
+    <TestClassification>Development</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="Profile Interrupt Test" Guid="600e4810-7727-424d-8644-53cf52a21d5c" EstimatedRuntimeInSeconds="1860" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Client.CPU</FeatureMapped>
+    <DevelopmentPhaseSet>BringUp</DevelopmentPhaseSet>
+    <DevelopmentPhaseSet>DevelopmentAndIntegration</DevelopmentPhaseSet>
+    <TestClassification>Development</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="Check PM Profile" Guid="c97fc6d3-9a05-4ad9-97d0-d598492e1b7d" EstimatedRuntimeInSeconds="60" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.PowerManagement</FeatureMapped>
+    <DevelopmentPhaseSet>BringUp</DevelopmentPhaseSet>
+    <DevelopmentPhaseSet>TuningAndValidation</DevelopmentPhaseSet>
+    <TestClassification>Development</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="QPC Validation Test" Guid="87b381ca-e88c-406e-a99e-ceb1c4188fe1" EstimatedRuntimeInSeconds="1800" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Client.CPU</FeatureMapped>
+    <DevelopmentPhaseSet>BringUp</DevelopmentPhaseSet>
+    <DevelopmentPhaseSet>DevelopmentAndIntegration</DevelopmentPhaseSet>
+    <TestClassification>Development</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="Boot Test (SYSTEM)" Guid="3b66d9ef-fac0-4215-814c-e98f5e6ed63c" EstimatedRuntimeInSeconds="300" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.Firmware.Boot</FeatureMapped>
+    <DevelopmentPhaseSet>DevelopmentAndIntegration</DevelopmentPhaseSet>
+    <TestClassification>Compatibility</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="USB Generic HID Test" Guid="f7949ab5-dd13-4c74-876f-6d54ff85e213" EstimatedRuntimeInSeconds="180" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.SystemUSB</FeatureMapped>
+    <DevelopmentPhaseSet>BringUp</DevelopmentPhaseSet>
+    <TestClassification>Development</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="HEVC SW-DRM Test 6" Guid="725dc757-7fec-4bbc-9941-9bf55d27687a" EstimatedRuntimeInSeconds="900" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.Graphics</FeatureMapped>
+    <DevelopmentPhaseSet>DevelopmentAndIntegration</DevelopmentPhaseSet>
+    <TestClassification>Development</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="Verify Post Device Supports Display And Render" Guid="a635f1f2-5a43-4264-a667-ce6cd1a43338" EstimatedRuntimeInSeconds="120" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Client.Graphics</FeatureMapped>
+    <DevelopmentPhaseSet>TuningAndValidation</DevelopmentPhaseSet>
+    <TestClassification>Compatibility</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="Glitchfree Low-period Audio Playback test under stress" Guid="c29249d6-86e7-4b98-85b0-3c106cf9630b" EstimatedRuntimeInSeconds="600" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Client.VideoPlayback</FeatureMapped>
+    <DevelopmentPhaseSet>TuningAndValidation</DevelopmentPhaseSet>
+    <TestClassification>Scenario</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="USB Type-C ACPI Validation" Guid="b3c41a3f-b844-4c2d-b115-dad51a37f123" EstimatedRuntimeInSeconds="300" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.SystemUSB</FeatureMapped>
+    <DevelopmentPhaseSet>DevelopmentAndIntegration</DevelopmentPhaseSet>
+    <TestClassification>Development</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="TPM 2.0 EK Certificate Tests" Guid="f6a65aa0-803b-43aa-950c-ad5befc05bee" EstimatedRuntimeInSeconds="600" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.TPM20</FeatureMapped>
+    <DevelopmentPhaseSet>DevelopmentAndIntegration</DevelopmentPhaseSet>
+    <DevelopmentPhaseSet>Manufacturing</DevelopmentPhaseSet>
+    <DevelopmentPhaseSet>Support</DevelopmentPhaseSet>
+    <TestClassification>Compatibility</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="HEVC SW-DRM Test 8" Guid="f7be683e-30b0-409c-8da2-788547cd1837" EstimatedRuntimeInSeconds="900" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.Graphics</FeatureMapped>
+    <DevelopmentPhaseSet>DevelopmentAndIntegration</DevelopmentPhaseSet>
+    <TestClassification>Development</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="System - Embedded Signature Verification" Guid="eb9bad1e-70b3-4f8d-a090-4ff15ee7b559" EstimatedRuntimeInSeconds="300" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.SignedDrivers</FeatureMapped>
+    <DevelopmentPhaseSet>TuningAndValidation</DevelopmentPhaseSet>
+    <TestClassification>Scenario</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="System - Sleep with IO Before and After (Reliability SysFund)" Guid="16ac817e-b042-4679-8027-c6c44d1ce29f" EstimatedRuntimeInSeconds="10800" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <ScheduleOptionSet>SpecialConfiguration</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.Reliability</FeatureMapped>
+    <FeatureMapped>System.Fundamentals.SystemUSB</FeatureMapped>
+    <DevelopmentPhaseSet>Reliability</DevelopmentPhaseSet>
+    <TestClassification>Scenario</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="USB Exposed Port System Test" Guid="5271c664-5f93-414e-93e7-31b394a552d4" EstimatedRuntimeInSeconds="300" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.SystemUSB</FeatureMapped>
+    <DevelopmentPhaseSet>BringUp</DevelopmentPhaseSet>
+    <DevelopmentPhaseSet>DevelopmentAndIntegration</DevelopmentPhaseSet>
+    <TestClassification>Compatibility</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="Glitchfree Low-period Audio Capture test under stress" Guid="5bebd66b-b5a2-4278-88df-5579b348860d" EstimatedRuntimeInSeconds="600" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Client.VideoPlayback</FeatureMapped>
+    <DevelopmentPhaseSet>TuningAndValidation</DevelopmentPhaseSet>
+    <TestClassification>Scenario</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="TPM 2.0 Attestation Test" Guid="1c842b31-3599-43e9-82d2-9e71c4b3205e" EstimatedRuntimeInSeconds="600" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <ScheduleOptionSet>SpecialConfiguration</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.TPM20</FeatureMapped>
+    <DevelopmentPhaseSet>Manufacturing</DevelopmentPhaseSet>
+    <DevelopmentPhaseSet>Support</DevelopmentPhaseSet>
+    <DevelopmentPhaseSet>TuningAndValidation</DevelopmentPhaseSet>
+    <TestClassification>Compatibility</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="HEVC HW-DRM Test 9" Guid="3331a528-19ca-4bc2-9b44-6cd0e2f576c9" EstimatedRuntimeInSeconds="900" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.Graphics</FeatureMapped>
+    <DevelopmentPhaseSet>DevelopmentAndIntegration</DevelopmentPhaseSet>
+    <TestClassification>Development</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="TPM 2.0 Verify Existence and Device Requirements Test" Guid="8ddefeef-88ca-4949-ac0c-6eb036a98200" EstimatedRuntimeInSeconds="60" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.TPM20Required</FeatureMapped>
+    <DevelopmentPhaseSet>DevelopmentAndIntegration</DevelopmentPhaseSet>
+    <DevelopmentPhaseSet>Manufacturing</DevelopmentPhaseSet>
+    <DevelopmentPhaseSet>Support</DevelopmentPhaseSet>
+    <TestClassification>Compatibility</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="Assessment - Internet Explorer Security Software Impact" Guid="5a6e5d48-6f6b-43f8-8f2e-fe02f6c2606e" EstimatedRuntimeInSeconds="3600" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Client.CPU</FeatureMapped>
+    <DevelopmentPhaseSet>TuningAndValidation</DevelopmentPhaseSet>
+    <TestClassification>Benchmark</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="Secure Boot Manual Logo Test" Guid="9741a26f-8249-48bd-8135-152eb3f87590" EstimatedRuntimeInSeconds="5400" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Manual</ScheduleOptionSet>
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <ScheduleOptionSet>SpecialConfiguration</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.Firmware</FeatureMapped>
+    <DevelopmentPhaseSet>Reliability</DevelopmentPhaseSet>
+    <TestClassification>Compatibility</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="xHCI Debug Capability Compliance (Logo)" Guid="bc39efad-a222-4054-b2ee-37714ddfbc1d" EstimatedRuntimeInSeconds="900" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Manual</ScheduleOptionSet>
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <ScheduleOptionSet>MultipleMachines</ScheduleOptionSet>
+    <ScheduleOptionSet>SpecialConfiguration</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.DebugPort.USB</FeatureMapped>
+    <DevelopmentPhaseSet>BringUp</DevelopmentPhaseSet>
+    <TestClassification>Development</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="WGF Feature Level 9.3 Support" Guid="3ae28052-1946-47c4-959a-74a171ae4f09" EstimatedRuntimeInSeconds="60" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.Graphics.RenderOnly</FeatureMapped>
+    <DevelopmentPhaseSet>TuningAndValidation</DevelopmentPhaseSet>
+    <TestClassification>Compatibility</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="Hardware Reserved Memory Test" Guid="bde9eb4f-96e8-4be7-9f7b-22c6169e09ad" EstimatedRuntimeInSeconds="300" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.Firmware</FeatureMapped>
+    <DevelopmentPhaseSet>BringUp</DevelopmentPhaseSet>
+    <TestClassification>Development</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="BitLocker Tpm and Recovery Password tests for non-AOAC devices for Legacy PCRs" Guid="ce9e5b64-8903-4025-bccf-a99d65663cf8" EstimatedRuntimeInSeconds="900" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.TPM.NonCS</FeatureMapped>
+    <DevelopmentPhaseSet>DevelopmentAndIntegration</DevelopmentPhaseSet>
+    <DevelopmentPhaseSet>Support</DevelopmentPhaseSet>
+    <TestClassification>Scenario</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="System - Partition Validation" Guid="26f8c4a1-73c8-4f27-9c55-6db84298e02c" EstimatedRuntimeInSeconds="240" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Manual</ScheduleOptionSet>
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Client.SystemPartition</FeatureMapped>
+    <DevelopmentPhaseSet>DevelopmentAndIntegration</DevelopmentPhaseSet>
+    <TestClassification>Scenario</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="Glitchfree Low-period Audio Capture test" Guid="9a7a2601-da72-4631-9571-bd2a6808e80f" EstimatedRuntimeInSeconds="600" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Client.VideoPlayback</FeatureMapped>
+    <DevelopmentPhaseSet>TuningAndValidation</DevelopmentPhaseSet>
+    <TestClassification>Scenario</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="Assessment - Standby Performance" Guid="77768493-5d55-43d9-92f7-aa9a8da3a1c3" EstimatedRuntimeInSeconds="1800" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Client.CPU</FeatureMapped>
+    <DevelopmentPhaseSet>TuningAndValidation</DevelopmentPhaseSet>
+    <TestClassification>Benchmark</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="Windows Client System Check For WDDM 1.3 Display Driver Support" Guid="a0901fb0-ad91-4da6-a176-23b5742ee163" EstimatedRuntimeInSeconds="60" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Client.Graphics</FeatureMapped>
+    <DevelopmentPhaseSet>TuningAndValidation</DevelopmentPhaseSet>
+    <TestClassification>Compatibility</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="WGF Feature Level 9.3 Support (WoW64)" Guid="5ca8a48a-76ff-4a44-844c-1fc99af2def6" EstimatedRuntimeInSeconds="60" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.Graphics.RenderOnly</FeatureMapped>
+    <DevelopmentPhaseSet>TuningAndValidation</DevelopmentPhaseSet>
+    <TestClassification>Compatibility</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="HEVC HW-DRM Test 8" Guid="836e5540-859b-446b-b567-830d5cf59161" EstimatedRuntimeInSeconds="900" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.Graphics</FeatureMapped>
+    <DevelopmentPhaseSet>DevelopmentAndIntegration</DevelopmentPhaseSet>
+    <TestClassification>Development</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="WindowsToGo Boot Test" Guid="566141f1-512f-45a5-a5da-b2ef4c10327b" EstimatedRuntimeInSeconds="2700" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <ScheduleOptionSet>SpecialConfiguration</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.USBBoot</FeatureMapped>
+    <DevelopmentPhaseSet>TuningAndValidation</DevelopmentPhaseSet>
+    <TestClassification>Scenario</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="WDDM CCD Test for verifying only one internal target active on GPU" Guid="352dea37-3acd-4af3-8ca5-aa7402f6f692" EstimatedRuntimeInSeconds="60" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Client.Graphics</FeatureMapped>
+    <DevelopmentPhaseSet>TuningAndValidation</DevelopmentPhaseSet>
+    <TestClassification>Compatibility</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="Brightness2 Test" Guid="6949d144-dcb0-42dd-90a0-e56d2d17c4ad" EstimatedRuntimeInSeconds="1500" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Client.BrightnessControls</FeatureMapped>
+    <DevelopmentPhaseSet>TuningAndValidation</DevelopmentPhaseSet>
+    <TestClassification>Compatibility</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="H264 HW-DRM Test 3" Guid="2fefac6d-2815-4046-ad9a-4954cb3f22c6" EstimatedRuntimeInSeconds="900" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.Graphics</FeatureMapped>
+    <DevelopmentPhaseSet>DevelopmentAndIntegration</DevelopmentPhaseSet>
+    <TestClassification>Development</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="Assessment - Driver Verification" Guid="61f1b4af-c574-42a9-b631-6943c7e80185" EstimatedRuntimeInSeconds="300" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Client.CPU</FeatureMapped>
+    <DevelopmentPhaseSet>TuningAndValidation</DevelopmentPhaseSet>
+    <TestClassification>Benchmark</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="HEVC HW-DRM Test 10" Guid="432c8bba-d081-4133-98d5-d9bbfc7d4027" EstimatedRuntimeInSeconds="900" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.Graphics</FeatureMapped>
+    <DevelopmentPhaseSet>DevelopmentAndIntegration</DevelopmentPhaseSet>
+    <TestClassification>Development</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="TPM 2.0 Verify Existence for Client Systems" Guid="f9bc214a-8cc3-4603-aed0-c7a1a5e31543" EstimatedRuntimeInSeconds="60" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.TPM20</FeatureMapped>
+    <DevelopmentPhaseSet>DevelopmentAndIntegration</DevelopmentPhaseSet>
+    <DevelopmentPhaseSet>Manufacturing</DevelopmentPhaseSet>
+    <DevelopmentPhaseSet>Support</DevelopmentPhaseSet>
+    <TestClassification>Compatibility</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="Verify System.Fundamentals.Security.VirtualizationSupport" Guid="5622e73a-c222-455c-a389-44b0bb5cd908" EstimatedRuntimeInSeconds="120" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.Security.VirtualizationBasedSecurity</FeatureMapped>
+    <DevelopmentPhaseSet>BringUp</DevelopmentPhaseSet>
+    <DevelopmentPhaseSet>DevelopmentAndIntegration</DevelopmentPhaseSet>
+    <TestClassification>Compatibility</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="TPM Based Virtual Smart Card Interface Test" Guid="1543208e-6941-48f6-b5a1-118b5c385fa7" EstimatedRuntimeInSeconds="600" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <ScheduleOptionSet>SpecialConfiguration</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.TPM20</FeatureMapped>
+    <DevelopmentPhaseSet>TuningAndValidation</DevelopmentPhaseSet>
+    <TestClassification>Development</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="H264 HW-DRM Test 4" Guid="fdcfd287-0997-463a-af80-fe9bc4b2a3cf" EstimatedRuntimeInSeconds="900" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.Graphics</FeatureMapped>
+    <DevelopmentPhaseSet>DevelopmentAndIntegration</DevelopmentPhaseSet>
+    <TestClassification>Development</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="Processor Power Management" Guid="94d083ef-9bf5-4736-b9a4-e54495f0cff4" EstimatedRuntimeInSeconds="1800" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.PowerManagement</FeatureMapped>
+    <DevelopmentPhaseSet>DevelopmentAndIntegration</DevelopmentPhaseSet>
+    <DevelopmentPhaseSet>TuningAndValidation</DevelopmentPhaseSet>
+    <TestClassification>Development</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="WDDM PnPStopModeSwitch Test" Guid="b36f16ef-b4c7-4d78-b05b-b085a3157483" EstimatedRuntimeInSeconds="7200" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.Graphics</FeatureMapped>
+    <DevelopmentPhaseSet>TuningAndValidation</DevelopmentPhaseSet>
+    <TestClassification>Compatibility</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="H264 SW-DRM Test 3" Guid="e310ac5f-3781-4bec-8b57-15a14ee3a029" EstimatedRuntimeInSeconds="900" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.Graphics</FeatureMapped>
+    <DevelopmentPhaseSet>DevelopmentAndIntegration</DevelopmentPhaseSet>
+    <TestClassification>Development</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="System Transcode Faster Than Real Time on AC Power Source ( Manual on mobile devices )" Guid="b7614ff1-e149-4f45-8b16-e96e5a1deb47" EstimatedRuntimeInSeconds="1200" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Client.MediaTranscode</FeatureMapped>
+    <DevelopmentPhaseSet>TuningAndValidation</DevelopmentPhaseSet>
+    <TestClassification>Scenario</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="USB MUTT Firmware Update for Systems" Guid="f5a4695e-52ca-42ab-bb38-a4c1ca939e21" EstimatedRuntimeInSeconds="60" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.SystemUSB</FeatureMapped>
+    <DevelopmentPhaseSet>BringUp</DevelopmentPhaseSet>
+    <TestClassification>Development</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="H264 SW-DRM Test 5" Guid="29897d61-d785-45e4-b3d3-0eb140c847b3" EstimatedRuntimeInSeconds="900" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.Graphics</FeatureMapped>
+    <DevelopmentPhaseSet>DevelopmentAndIntegration</DevelopmentPhaseSet>
+    <TestClassification>Development</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="H264 HW-DRM Test 1" Guid="67496928-7655-4faa-84b5-91404f5a3d3f" EstimatedRuntimeInSeconds="900" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.Graphics</FeatureMapped>
+    <DevelopmentPhaseSet>DevelopmentAndIntegration</DevelopmentPhaseSet>
+    <TestClassification>Development</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="TDI filters and LSPs are not allowed" Guid="1597d1fd-055a-43c7-b4c7-5396ab1ad525" EstimatedRuntimeInSeconds="60" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.Security</FeatureMapped>
+    <DevelopmentPhaseSet>TuningAndValidation</DevelopmentPhaseSet>
+    <TestClassification>Compatibility</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="H264 SW-DRM Test 2" Guid="1c7fd41e-d5ae-49c9-9f9e-ec38bc87117c" EstimatedRuntimeInSeconds="900" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.Graphics</FeatureMapped>
+    <DevelopmentPhaseSet>DevelopmentAndIntegration</DevelopmentPhaseSet>
+    <TestClassification>Development</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="WNGlitchfree HD Video Playback on DC ( Manual on mobile systems )" Guid="2b1e19cc-c8db-4f60-a0cb-73a2432cd8ce" EstimatedRuntimeInSeconds="1200" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Client.VideoPlayback</FeatureMapped>
+    <DevelopmentPhaseSet>TuningAndValidation</DevelopmentPhaseSet>
+    <TestClassification>Scenario</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="Secure Boot Logo Test" Guid="45ea8a48-d845-4400-b4a4-a4aeb8af686e" EstimatedRuntimeInSeconds="600" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <ScheduleOptionSet>SpecialConfiguration</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.Firmware</FeatureMapped>
+    <DevelopmentPhaseSet>Manufacturing</DevelopmentPhaseSet>
+    <DevelopmentPhaseSet>Support</DevelopmentPhaseSet>
+    <DevelopmentPhaseSet>TuningAndValidation</DevelopmentPhaseSet>
+    <TestClassification>Compatibility</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="Verify Graphics Device Count is one" Guid="f6a07b2c-36dc-495f-8068-fb16f9df8390" EstimatedRuntimeInSeconds="120" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Client.Graphics</FeatureMapped>
+    <FeatureMapped>System.Fundamentals.Graphics</FeatureMapped>
+    <DevelopmentPhaseSet>TuningAndValidation</DevelopmentPhaseSet>
+    <TestClassification>Compatibility</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="Assessment - Boot Performance (Full Boot)" Guid="74f3b6b4-0134-48b0-9832-26b45b088ffd" EstimatedRuntimeInSeconds="7200" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Client.CPU</FeatureMapped>
+    <DevelopmentPhaseSet>TuningAndValidation</DevelopmentPhaseSet>
+    <TestClassification>Benchmark</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="TPM 2.0 TCG Physical Presence Interface 1.3 Test" Guid="e9d37053-fdbb-4674-8fa5-84b5bc40908a" EstimatedRuntimeInSeconds="3600" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <ScheduleOptionSet>SpecialConfiguration</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.TPM20</FeatureMapped>
+    <DevelopmentPhaseSet>DevelopmentAndIntegration</DevelopmentPhaseSet>
+    <TestClassification>Compatibility</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="Assessment - Windows Store Apps Performance" Guid="2b6d9c6b-8c5b-4b14-b1a4-2e8d767185a5" EstimatedRuntimeInSeconds="7200" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Client.CPU</FeatureMapped>
+    <DevelopmentPhaseSet>TuningAndValidation</DevelopmentPhaseSet>
+    <TestClassification>Benchmark</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="Play protected content using software decryptor" Guid="598d80aa-cd07-428f-a26d-9f7a027e4c14" EstimatedRuntimeInSeconds="300" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.Graphics</FeatureMapped>
+    <DevelopmentPhaseSet>TuningAndValidation</DevelopmentPhaseSet>
+    <TestClassification>Scenario</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="Assessment - Minifilter Diagnostic - Boot Performance (Fast Startup)" Guid="a0430cdc-d155-421b-9c0d-88472ae18d1e" EstimatedRuntimeInSeconds="7200" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Client.CPU</FeatureMapped>
+    <DevelopmentPhaseSet>TuningAndValidation</DevelopmentPhaseSet>
+    <TestClassification>Benchmark</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="System Network Device Power Requirements (NDISTest 6.5 - PM_Requirements)" Guid="5d638d50-fcfb-45c7-ac52-50f2b333bdc8" EstimatedRuntimeInSeconds="300" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.Network</FeatureMapped>
+    <DevelopmentPhaseSet>BringUp</DevelopmentPhaseSet>
+    <DevelopmentPhaseSet>DevelopmentAndIntegration</DevelopmentPhaseSet>
+    <TestClassification>Development</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="HEVC SW-DRM Test 10" Guid="90352866-9c0a-4066-b031-658fccf5d861" EstimatedRuntimeInSeconds="900" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.Graphics</FeatureMapped>
+    <DevelopmentPhaseSet>DevelopmentAndIntegration</DevelopmentPhaseSet>
+    <TestClassification>Development</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="H264 HW-DRM Test 5" Guid="0128213b-185f-49d9-8d60-1abef4df8d5f" EstimatedRuntimeInSeconds="900" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.Graphics</FeatureMapped>
+    <DevelopmentPhaseSet>DevelopmentAndIntegration</DevelopmentPhaseSet>
+    <TestClassification>Development</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="System Transcode Faster Than Real Time on Battery (DC) Power Source ( Manual on mobile devices )" Guid="c343896c-fc2d-4c93-b285-c62110c4fcf9" EstimatedRuntimeInSeconds="1200" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Client.MediaTranscode</FeatureMapped>
+    <DevelopmentPhaseSet>TuningAndValidation</DevelopmentPhaseSet>
+    <TestClassification>Scenario</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="Watchdog Timer Test" Guid="3831da21-28a9-43c8-8815-853113c9265a" EstimatedRuntimeInSeconds="1860" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.WatchDogTimer</FeatureMapped>
+    <DevelopmentPhaseSet>BringUp</DevelopmentPhaseSet>
+    <DevelopmentPhaseSet>DevelopmentAndIntegration</DevelopmentPhaseSet>
+    <TestClassification>Development</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="HEVC HW-DRM Test 7" Guid="99eb9410-e2fe-432a-948d-4cbb00a33052" EstimatedRuntimeInSeconds="900" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.Graphics</FeatureMapped>
+    <DevelopmentPhaseSet>DevelopmentAndIntegration</DevelopmentPhaseSet>
+    <TestClassification>Development</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="H264 SW-DRM Test 4" Guid="cea064b0-ff84-4e3f-873c-aa440e5fc323" EstimatedRuntimeInSeconds="900" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.Graphics</FeatureMapped>
+    <DevelopmentPhaseSet>DevelopmentAndIntegration</DevelopmentPhaseSet>
+    <TestClassification>Development</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="System - PNP (disable and enable) with IO Before and After (Reliability)" Guid="b2849bf1-3478-4fd7-a577-31001084e908" EstimatedRuntimeInSeconds="3600" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <ScheduleOptionSet>SpecialConfiguration</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.Reliability</FeatureMapped>
+    <FeatureMapped>System.Fundamentals.SystemUSB</FeatureMapped>
+    <DevelopmentPhaseSet>Reliability</DevelopmentPhaseSet>
+    <TestClassification>Scenario</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="Windows Client System Check For WDDM 1.1 Or Greater Display Driver Support" Guid="7d52aeb9-54fb-46fb-a7bb-3a82a097e4d4" EstimatedRuntimeInSeconds="60" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Client.Graphics</FeatureMapped>
+    <DevelopmentPhaseSet>TuningAndValidation</DevelopmentPhaseSet>
+    <TestClassification>Compatibility</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="TPM Platform Crypto Provider Key Storage Provider Test" Guid="7c938be0-ff4a-44f9-916c-b578f027f0ca" EstimatedRuntimeInSeconds="600" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.TPM20</FeatureMapped>
+    <DevelopmentPhaseSet>DevelopmentAndIntegration</DevelopmentPhaseSet>
+    <TestClassification>Compatibility</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="Clock Interrupt Test" Guid="189f5102-3622-4b4e-95dd-e3c7a5d24f9a" EstimatedRuntimeInSeconds="1860" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Client.CPU</FeatureMapped>
+    <DevelopmentPhaseSet>BringUp</DevelopmentPhaseSet>
+    <DevelopmentPhaseSet>DevelopmentAndIntegration</DevelopmentPhaseSet>
+    <TestClassification>Development</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="Secure Boot Test - Customized Deployment Basic Test" Guid="c57b6bfd-d286-4740-9b32-aec211b01961" EstimatedRuntimeInSeconds="600" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <ScheduleOptionSet>SpecialConfiguration</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.Firmware</FeatureMapped>
+    <DevelopmentPhaseSet>DevelopmentAndIntegration</DevelopmentPhaseSet>
+    <TestClassification>Compatibility</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="UEFI GOP mode test" Guid="6afc8979-df62-4d86-8f6a-99f05bbdc7f3" EstimatedRuntimeInSeconds="120" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Client.Firmware.UEFI.GOP</FeatureMapped>
+    <FeatureMapped>System.Server.Firmware.UEFI.GOP</FeatureMapped>
+    <DevelopmentPhaseSet>TuningAndValidation</DevelopmentPhaseSet>
+    <TestClassification>Compatibility</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="Play protected content using hardware decryptor" Guid="0c652d52-6b75-4bde-bf9c-6a1329cccce6" EstimatedRuntimeInSeconds="300" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.Graphics</FeatureMapped>
+    <DevelopmentPhaseSet>TuningAndValidation</DevelopmentPhaseSet>
+    <TestClassification>Scenario</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="Assessment - Hibernate Performance" Guid="8eda5941-6b2b-4206-9b7f-211be07762bb" EstimatedRuntimeInSeconds="1800" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Client.CPU</FeatureMapped>
+    <DevelopmentPhaseSet>TuningAndValidation</DevelopmentPhaseSet>
+    <TestClassification>Benchmark</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="TPM 2.0 Core Provisioning Test" Guid="965e5a8a-400a-4d97-9c6d-b10e867010cb" EstimatedRuntimeInSeconds="1800" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <ScheduleOptionSet>SpecialConfiguration</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.TPM20</FeatureMapped>
+    <DevelopmentPhaseSet>Manufacturing</DevelopmentPhaseSet>
+    <DevelopmentPhaseSet>Support</DevelopmentPhaseSet>
+    <DevelopmentPhaseSet>TuningAndValidation</DevelopmentPhaseSet>
+    <TestClassification>Compatibility</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="Glitchfree Low-period Audio Playback test" Guid="b732c24d-5e3b-4cd2-9580-a9318e0f7b8c" EstimatedRuntimeInSeconds="600" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Client.VideoPlayback</FeatureMapped>
+    <DevelopmentPhaseSet>TuningAndValidation</DevelopmentPhaseSet>
+    <TestClassification>Scenario</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="Verify Device Driver Is WDDM" Guid="fe14601e-d04c-4ad8-af8f-8fa09618a03d" EstimatedRuntimeInSeconds="120" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Client.Graphics</FeatureMapped>
+    <FeatureMapped>System.Server.Graphics</FeatureMapped>
+    <DevelopmentPhaseSet>TuningAndValidation</DevelopmentPhaseSet>
+    <TestClassification>Compatibility</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="Battery Validation - Drain Test Reset" Guid="7fd149e0-0461-4678-9a6b-4fa026044e5b" EstimatedRuntimeInSeconds="600" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.Battery</FeatureMapped>
+    <DevelopmentPhaseSet>BringUp</DevelopmentPhaseSet>
+    <DevelopmentPhaseSet>DevelopmentAndIntegration</DevelopmentPhaseSet>
+    <DevelopmentPhaseSet>Manufacturing</DevelopmentPhaseSet>
+    <DevelopmentPhaseSet>Reliability</DevelopmentPhaseSet>
+    <DevelopmentPhaseSet>TuningAndValidation</DevelopmentPhaseSet>
+    <TestClassification>Development</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="MultiPhaseResume" Guid="d581991b-3829-4c8b-91dd-c88d069152f6" EstimatedRuntimeInSeconds="300" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.PowerManagement</FeatureMapped>
+    <DevelopmentPhaseSet>Manufacturing</DevelopmentPhaseSet>
+    <DevelopmentPhaseSet>Reliability</DevelopmentPhaseSet>
+    <DevelopmentPhaseSet>Support</DevelopmentPhaseSet>
+    <DevelopmentPhaseSet>TuningAndValidation</DevelopmentPhaseSet>
+    <TestClassification>Compatibility</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="TPM 2.0 - Supplemental test" Guid="146e350a-a7db-4665-afe7-ee25477ce2ee" EstimatedRuntimeInSeconds="600" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <ScheduleOptionSet>SpecialConfiguration</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.TPM20</FeatureMapped>
+    <DevelopmentPhaseSet>Manufacturing</DevelopmentPhaseSet>
+    <DevelopmentPhaseSet>Support</DevelopmentPhaseSet>
+    <DevelopmentPhaseSet>TuningAndValidation</DevelopmentPhaseSet>
+    <TestClassification>Compatibility</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="Glitchfree Low-period Full-duplex Audio Playback &amp; Capture test under stress" Guid="50acc73d-11f8-4d92-90ae-aa32a9658288" EstimatedRuntimeInSeconds="600" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Client.VideoPlayback</FeatureMapped>
+    <DevelopmentPhaseSet>TuningAndValidation</DevelopmentPhaseSet>
+    <TestClassification>Scenario</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="Verifies PS2 Devices have a unique Plug and Play ID" Guid="7b8f8c28-c829-4a51-a1af-bb01a43dc048" EstimatedRuntimeInSeconds="300" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.Input</FeatureMapped>
+    <DevelopmentPhaseSet>DevelopmentAndIntegration</DevelopmentPhaseSet>
+    <TestClassification>Development</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="KeDelayExecutionThread Test" Guid="bc56cc14-e239-40ff-b026-bb2a98ef9b1e" EstimatedRuntimeInSeconds="1860" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Client.CPU</FeatureMapped>
+    <DevelopmentPhaseSet>BringUp</DevelopmentPhaseSet>
+    <DevelopmentPhaseSet>DevelopmentAndIntegration</DevelopmentPhaseSet>
+    <TestClassification>Development</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="Windows Client System Check For WDDM 1.2 Display Driver Support" Guid="f6345e90-c03e-44be-ba7f-73c3e4699987" EstimatedRuntimeInSeconds="60" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Client.Graphics</FeatureMapped>
+    <DevelopmentPhaseSet>TuningAndValidation</DevelopmentPhaseSet>
+    <TestClassification>Compatibility</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="H264 HW-DRM Test 2" Guid="12d9bb25-a6d3-4c51-b606-6f05ab9afb9d" EstimatedRuntimeInSeconds="900" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.Graphics</FeatureMapped>
+    <DevelopmentPhaseSet>DevelopmentAndIntegration</DevelopmentPhaseSet>
+    <TestClassification>Development</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="BitLocker Tpm+PIN+ USB and Recovery Password tests" Guid="6db734d1-6bdc-4da5-87f9-51e0948e21b1" EstimatedRuntimeInSeconds="900" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Manual</ScheduleOptionSet>
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.TPM.NonCS</FeatureMapped>
+    <FeatureMapped>System.Fundamentals.TPM20</FeatureMapped>
+    <DevelopmentPhaseSet>DevelopmentAndIntegration</DevelopmentPhaseSet>
+    <TestClassification>Scenario</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="Windows System Check For WDDM" Guid="10b2bc42-88f2-4b60-b1d0-a5f43a49aa0f" EstimatedRuntimeInSeconds="60" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Client.Graphics</FeatureMapped>
+    <DevelopmentPhaseSet>TuningAndValidation</DevelopmentPhaseSet>
+    <TestClassification>Compatibility</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="Debug Capability Test (Logo)" Guid="83974a17-ec9f-4996-a0d6-5873bf1eb3ac" EstimatedRuntimeInSeconds="1200" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Manual</ScheduleOptionSet>
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <ScheduleOptionSet>MultipleMachines</ScheduleOptionSet>
+    <ScheduleOptionSet>SpecialConfiguration</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.DebugPort</FeatureMapped>
+    <DevelopmentPhaseSet>BringUp</DevelopmentPhaseSet>
+    <TestClassification>Development</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="Glitchfree Low-period Full-duplex Audio Playback &amp; Capture test" Guid="4c6d68cd-cd62-41b4-ae87-8709d2fe5046" EstimatedRuntimeInSeconds="600" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Client.VideoPlayback</FeatureMapped>
+    <DevelopmentPhaseSet>TuningAndValidation</DevelopmentPhaseSet>
+    <TestClassification>Scenario</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="USB xHCI Transfer Speed Test" Guid="4be72bcf-c293-4578-8400-b0cb2f091e16" EstimatedRuntimeInSeconds="300" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.SystemUSB</FeatureMapped>
+    <DevelopmentPhaseSet>BringUp</DevelopmentPhaseSet>
+    <TestClassification>Development</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="Battery Validation - Drain Test" Guid="11c8b6c9-5aef-4da7-98ad-85cd0d9a821f" EstimatedRuntimeInSeconds="86400" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Manual</ScheduleOptionSet>
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.Battery</FeatureMapped>
+    <DevelopmentPhaseSet>BringUp</DevelopmentPhaseSet>
+    <DevelopmentPhaseSet>DevelopmentAndIntegration</DevelopmentPhaseSet>
+    <DevelopmentPhaseSet>Manufacturing</DevelopmentPhaseSet>
+    <DevelopmentPhaseSet>Reliability</DevelopmentPhaseSet>
+    <DevelopmentPhaseSet>TuningAndValidation</DevelopmentPhaseSet>
+    <TestClassification>Development</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="Single Computer Display Object test" Guid="686005ee-4d03-49c5-a1db-440235c06fc8" EstimatedRuntimeInSeconds="60" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Client.PCContainer</FeatureMapped>
+    <DevelopmentPhaseSet>DevelopmentAndIntegration</DevelopmentPhaseSet>
+    <TestClassification>Compatibility</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="ACPI Logo Test" Guid="0861b530-868e-427e-94d1-2068f2e92a9a" EstimatedRuntimeInSeconds="1800" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.Firmware</FeatureMapped>
+    <DevelopmentPhaseSet>BringUp</DevelopmentPhaseSet>
+    <DevelopmentPhaseSet>DevelopmentAndIntegration</DevelopmentPhaseSet>
+    <TestClassification>Development</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="Brightness Test" Guid="fb3cc9d2-e8bf-4c51-b5a1-cd1d60a65689" EstimatedRuntimeInSeconds="900" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Client.BrightnessControls</FeatureMapped>
+    <DevelopmentPhaseSet>TuningAndValidation</DevelopmentPhaseSet>
+    <TestClassification>Compatibility</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="H264 SW-DRM Test 1" Guid="52f9edff-8a75-418e-9a42-ccf227a23545" EstimatedRuntimeInSeconds="900" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.Graphics</FeatureMapped>
+    <DevelopmentPhaseSet>DevelopmentAndIntegration</DevelopmentPhaseSet>
+    <TestClassification>Development</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="Assessment - Internet Explorer Startup Performance" Guid="db3cc4b3-b7fa-4cd4-aa0e-b5f8a7c9aab1" EstimatedRuntimeInSeconds="600" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Client.CPU</FeatureMapped>
+    <DevelopmentPhaseSet>TuningAndValidation</DevelopmentPhaseSet>
+    <TestClassification>Benchmark</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="Driver Firmware Configuration Test" Guid="2b058e1e-0578-4e78-a0fa-e826fd9d75ec" EstimatedRuntimeInSeconds="600" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.SMBIOS</FeatureMapped>
+    <DevelopmentPhaseSet>Support</DevelopmentPhaseSet>
+    <TestClassification>Scenario</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="HEVC HW-DRM Test 6" Guid="8e563e0a-907e-47cb-8c5c-82bf4b98ed84" EstimatedRuntimeInSeconds="900" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.Graphics</FeatureMapped>
+    <DevelopmentPhaseSet>DevelopmentAndIntegration</DevelopmentPhaseSet>
+    <TestClassification>Development</TestClassification>
+  </TestCollectionRecord>
+  <TestCollectionRecord Name="TPM 2.0 UEFI Preboot Interface Test" Guid="9a9fcb0b-2b95-4360-9f06-7022e68a6c71" EstimatedRuntimeInSeconds="600" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <ScheduleOptionSet>SpecialConfiguration</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.TPM20</FeatureMapped>
+    <DevelopmentPhaseSet>DevelopmentAndIntegration</DevelopmentPhaseSet>
+    <TestClassification>Compatibility</TestClassification>
+  </TestCollectionRecord>
+</ArrayOfTestCollectionRecord>

@@ -1,0 +1,11 @@
+New-HwCertProjectDefinitionFile -ControllerName "WIN-3HIHJ35D317" -MachinePool "KBL" -PdefFilePath "C:\Users\Administrator\Desktop\PDEF_Files\test1.xml" -TestCollectionFilePath "C:\Users\Administrator\Desktop\PDEF_Files\log\" -ProjectName "XMLTEST" -RunSystemTest 
+
+****************************
+
+New-HwCertProjectDefinitionFile -MachinePool "KBL" -PdefFilePath "C:\Users\Administrator\Desktop\PDEF_Files\test1.xml" -TestCollectionFilePath "C:\Users\Administrator\Desktop\PDEF_Files\log\"  -ProjectName "XMLTEST" -RunSystemTest
+
+
+New-HwCertTestCollection -ProjectDefinitionFile C:\Users\Administrator\Desktop\PDEF_Files\test1.xml|Export-HwCertTestCollectionToXml -Output C:\Users\Administrator\Desktop\PDEF_Files\master.xml -TestPassIdentifier "test01"
+
+
+hckexecutionengine.exe /Project "C:\Users\Administrator\Desktop\PDEF_Files\test1.xml" /RunCollection

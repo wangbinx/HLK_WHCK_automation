@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<ArrayOfTestCollectionRecord xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <TestCollectionRecord Name="BitLocker Drive Encryption USB BIOS Logo Test" Guid="39d176bc-059b-43aa-ae26-e530bdec23bf" EstimatedRuntimeInSeconds="120" TargetName="DESKTOP-8E743RN" TargetId="[SYSTEM]" TargetType="System" HckBuildVersion="10.1.16299.16299" OsPlatform="Windows v10.0 Client x64 RS3 Full" TestPassIdentifier="test01">
+    <ScheduleOptionSet>Distributable</ScheduleOptionSet>
+    <FeatureMapped>System.Fundamentals.USBBoot</FeatureMapped>
+    <DevelopmentPhaseSet>DevelopmentAndIntegration</DevelopmentPhaseSet>
+    <TestClassification>Development</TestClassification>
+  </TestCollectionRecord>
+
+</ArrayOfTestCollectionRecord>

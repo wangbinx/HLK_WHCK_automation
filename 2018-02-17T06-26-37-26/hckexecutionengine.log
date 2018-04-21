@@ -1,0 +1,835 @@
+HLK (Execution) Information: 0 : [Program] HCK Execution engine launched.
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:37.4231955Z
+    Timestamp=1798234516269
+HLK (Execution) Information: 0 : [Action] 
+Using project definition file: C:\Users\Administrator\Desktop\PDEF_Files\test1.xml
+
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:37.4388184Z
+    Timestamp=1798234549676
+HLK (Execution) Information: 0 : [Parse] Validating project: XMLTEST
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:37.5950685Z
+    Timestamp=1798234977364
+HLK (Execution) Information: 0 : [Parse]     Step: Verify user specified test collection path in project definition file.
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:37.5950685Z
+    Timestamp=1798234984856
+HLK (Execution) Information: 0 : [Parse]     Step: Verify user specified test collection status path in project definition file.
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:37.6106930Z
+    Timestamp=1798234988658
+HLK (Execution) Information: 0 : [Parse]         Test Collection Status: C:\Users\Administrator\Desktop\PDEF_Files\master_collection_status.xml
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:37.6106930Z
+    Timestamp=1798234991468
+HLK (Execution) Information: 0 : [Parse]     Step: Verify user specified test collection file does not overlap with the status collection file.
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:37.6106930Z
+    Timestamp=1798234994296
+HLK (Execution) Information: 0 : [Parse] Import test collection for project: XMLTEST
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:37.6263190Z
+    Timestamp=1798235030067
+HLK (Execution) Information: 0 : [Parse]     Step: Try to import test collection XML file.
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:37.6263190Z
+    Timestamp=1798235042305
+HLK (Execution) Information: 0 : [Parse]         Test collection file: C:\Users\Administrator\Desktop\PDEF_Files\playlist.xml
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:37.6263190Z
+    Timestamp=1798235045253
+HLK (Execution) Information: 0 : [Parse] Reduce test collection for current executing project: XMLTEST
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:37.6888181Z
+    Timestamp=1798235215798
+HLK (Execution) Information: 0 : [Parse]         Added test: BitLocker Drive Encryption USB BIOS Logo Test
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:37.7044441Z
+    Timestamp=1798235250734
+HLK (Execution) Information: 0 : [Parse] 
+Parse project definition file.
+Load project definition file: C:\Users\Administrator\Desktop\PDEF_Files\test1.xml
+Successfully loaded project definition file.
+
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:37.7044441Z
+    Timestamp=1798235255359
+HLK (Execution) Information: 0 : [Connect] 
+Connecting to controller: WIN-3HIHJ35D317
+Connecting to database: HLKJobs
+Successfully opened database connection.
+
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:39.5871891Z
+    Timestamp=1798240124256
+HLK (Execution) Information: 0 : [Create] Start: Create Project.
+
+Checking project data in project definition file.
+Checking family and target for valid target combinations.
+End:  Check Family and Target For Valid Target Combinations.
+User specified project name: XMLTEST
+Create HCK project name: XMLTEST_2018-02-17T06-26-39-61
+Successfully created project.
+Start: Create Filters
+End: Create Filters
+Start: Create Products
+OS platform for the product: Windows v10.0 Client x64 RS3 Full
+Start: Create Machines and Pool
+Create machine pool: XMLTEST_2018-02-17T06-26-39-61
+Successfully created machine pool.
+Search for machines in pool: Default Pool
+Checking machine: DESKTOP-OFP5E3P
+Machine will not be used for automation, state: Debug
+Checking machine: DESKTOP-8E743RN
+Find machine with name: DESKTOP-8E743RN
+Find machine with operating system: Windows v10.0 Client x64 RS3 Full
+Set machine to Ready state.
+End: Create Machines
+Create product: Windows_v10_0_Client_x64_RS3_Full_2018-02-17T06-26-41-94
+Successfully created product.
+End: Create Products
+End: Create Project
+
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:42.1184427Z
+    Timestamp=1798246711337
+HLK (Execution) Information: 0 : [FilterTarget] Filter target for project: XMLTEST
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:42.1184427Z
+    Timestamp=1798246716563
+HLK (Execution) Information: 0 : [FilterTarget]     Step: Reduce target family, check if any family data can be omitted from the current run.
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:42.1184427Z
+    Timestamp=1798246719808
+HLK (Execution) Information: 0 : [FilterTarget] 
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:42.1184427Z
+    Timestamp=1798246732373
+HLK (Execution) Information: 0 : [Run] Launch execution for project: XMLTEST
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:42.1340679Z
+    Timestamp=1798246750962
+HLK (Execution) Information: 0 : [Run] Scheduler type: AdaptiveResourceOptimized
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:42.1340679Z
+    Timestamp=1798246754110
+HLK (Execution) Information: 0 : [AdaptiveResourceOptimizedScheduler] Project: XMLTEST
+    Cancellation monitor enter.
+
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:42.1340679Z
+    Timestamp=1798246768757
+HLK (Execution) Information: 0 : [AdaptiveResourceOptimizedScheduler] Project: XMLTEST
+    Completion enter.
+
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:42.1496932Z
+    Timestamp=1798246777652
+HLK (Execution) Information: 0 : [AdaptiveResourceOptimizedScheduler] Project: XMLTEST
+    MachineMonitor enter.
+
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:42.1496932Z
+    Timestamp=1798246806359
+HLK (Execution) Information: 0 : [AdaptiveResourceOptimizedScheduler] Project: XMLTEST
+    Scheduler enter.
+
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:42.1496932Z
+    Timestamp=1798246812362
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler] Setting timeout to: 120 hours.
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:42.1653180Z
+    Timestamp=1798246852178
+HLK (Execution) Information: 0 : [AdaptiveResourceOptimizedScheduler] Project: XMLTEST
+    Update:  2018/02/17 06:26:42
+    Passed:  0
+    Failed:  0
+    Not run: 0
+    Running: 0
+    Work queue count: 0 | Available machine count: 1
+
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:42.1653180Z
+    Timestamp=1798246854200
+HLK (Execution) Information: 0 : [Run] Waiting for thread to complete: 7
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:42.1809429Z
+    Timestamp=1798246860316
+HLK (Execution) Information: 0 : [AdaptiveResourceOptimizedScheduler] Project: XMLTEST
+    Test generation enter.
+
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:42.1809429Z
+    Timestamp=1798246894069
+HLK (Execution) Information: 0 : [AdaptiveResourceOptimizedScheduler] Start: Create Target and Family.
+Family name: SystemTest__2018-02-17T02-56-15-07
+Start: Find Targets
+Find target from system: 
+Found target data: A1B60B84-933C-4783-9FC9-BE6F79E3AB98 on machine: DESKTOP-8E743RN
+Successfully found available targets.
+Number of targets found: 1
+End: Find Targets
+Start: Create device family
+Include ID for device family search, ID: [SYSTEM]
+Searching through existing device family...
+Use existing device family: [SYSTEM]
+End: Create device family
+Try add all targets for target XML data: 
+    Checking OM target data in family before adding to create list, target key: A1B60B84-933C-4783-9FC9-BE6F79E3AB98
+    Add to create target list: DESKTOP-8E743RN - A1B60B84-933C-4783-9FC9-BE6F79E3AB98
+    Creating target(s)...
+    [CreateTarget] - 00:00:14.9229443 - 1 target(s)
+    Successfully created target(s).
+End: Create Target and Family.
+Start: Enumerate Test.
+Family name: SystemTest__2018-02-17T02-56-15-07
+    Number of test(s) enumerated for this family: 109
+End: Enumerate Test.
+Family and target creation completion: [100%]
+
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.1543878Z
+    Timestamp=1798288385704
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: TPM 2.0 Core Provisioning Test
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.1856394Z
+    Timestamp=1798288467395
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: BitLocker Tpm+PIN+ USB and Recovery Password tests
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.2012635Z
+    Timestamp=1798288496919
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: TPM Platform Crypto Provider Key Storage Provider Test
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.2012635Z
+    Timestamp=1798288511712
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: TPM 2.0 Attestation Test
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.2168880Z
+    Timestamp=1798288540516
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: Clock Interrupt Test
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.2325151Z
+    Timestamp=1798288571671
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: HEVC SW-DRM Test 7
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.2325151Z
+    Timestamp=1798288586797
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: TPM 2.0 EK Certificate Tests
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.2481392Z
+    Timestamp=1798288604339
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: MultiPhaseResume
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.2481392Z
+    Timestamp=1798288618821
+HLK (Execution) Information: 0 : [AdaptiveResourceOptimizedScheduler]         Added test: BitLocker Drive Encryption USB BIOS Logo Test
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.2481392Z
+    Timestamp=1798288632883
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: WindowsToGo UEFI USB Class Entry Test
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.2637633Z
+    Timestamp=1798288660209
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: ACPI Logo Test
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.2637633Z
+    Timestamp=1798288675189
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: WGF Feature Level 9.3 Support
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.2793886Z
+    Timestamp=1798288703902
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: Verify Post Device Supports Display And Render
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.2950146Z
+    Timestamp=1798288740164
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: Windows Client System Check For WDDM 1.2 Display Driver Support
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.3106394Z
+    Timestamp=1798288768273
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: WGF Feature Level 9.3 Support (WoW64)
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.3106394Z
+    Timestamp=1798288790577
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: USB Type-C Connection Exerciser Loop Test
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.3262654Z
+    Timestamp=1798288838499
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: Play protected content using hardware decryptor
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.3418895Z
+    Timestamp=1798288863195
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: BitLocker Tpm and Recovery Password tests for non-AOAC devices for Legacy PCRs
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.3575148Z
+    Timestamp=1798288883590
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: Windows Client System Check For WDDM 1.3 Display Driver Support
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.4200176Z
+    Timestamp=1798289056881
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: Play protected content using software decryptor
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.4356402Z
+    Timestamp=1798289086686
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: HEVC SW-DRM Test 10
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.4356402Z
+    Timestamp=1798289110594
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: Glitchfree Low-period Audio Capture test under stress
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.4512647Z
+    Timestamp=1798289145794
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: TPM 2.0 UEFI Preboot Interface Test
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.4668903Z
+    Timestamp=1798289166716
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: H264 HW-DRM Test 4
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.4668903Z
+    Timestamp=1798289192838
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: Debug Capability Test (Logo)
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.4825140Z
+    Timestamp=1798289204780
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: Driver Firmware Configuration Test
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.4825140Z
+    Timestamp=1798289220541
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: Profile Interrupt Test
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.4825140Z
+    Timestamp=1798289231784
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: Assessment - Memory Footprint
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.4825140Z
+    Timestamp=1798289242668
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: QPC Validation Test
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.4981396Z
+    Timestamp=1798289267527
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: H264 SW-DRM Test 4
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.4981396Z
+    Timestamp=1798289279204
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: Assessment - Internet Explorer Startup Performance
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.5137641Z
+    Timestamp=1798289294466
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: H264 HW-DRM Test 2
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.5137641Z
+    Timestamp=1798289308713
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: HEVC HW-DRM Test 7
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.5137641Z
+    Timestamp=1798289322324
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: HEVC SW-DRM Test 6
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.5293897Z
+    Timestamp=1798289349875
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: HEVC HW-DRM Test 10
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.5293897Z
+    Timestamp=1798289364530
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: TPM 2.0 Verify Existence for Client Systems
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.5450142Z
+    Timestamp=1798289383812
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: Secure Boot Logo Test
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.5450142Z
+    Timestamp=1798289397886
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: TPM Based Virtual Smart Card Interface Test
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.5606394Z
+    Timestamp=1798289434269
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: USB Type-C ACPI Validation
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.5762650Z
+    Timestamp=1798289468560
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: Windows Client System Check For WDDM 1.1 Or Greater Display Driver Support
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.5918911Z
+    Timestamp=1798289493095
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: System - Partition Validation
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.5918911Z
+    Timestamp=1798289525855
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: Verifies PS2 Devices have a unique Plug and Play ID
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.6075148Z
+    Timestamp=1798289553619
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: H264 SW-DRM Test 5
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.6231400Z
+    Timestamp=1798289590039
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: USB MUTT Firmware Update for Systems
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.6387656Z
+    Timestamp=1798289614372
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: TPM 2.0 Verify Existence and Device Requirements Test
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.6387656Z
+    Timestamp=1798289647300
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: System Transcode Faster Than Real Time on AC Power Source ( Manual on mobile devices )
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.6543889Z
+    Timestamp=1798289671970
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: WNGlitchfree HD Video Playback on DC ( Manual on mobile systems )
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.6543889Z
+    Timestamp=1798289691016
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: Hardware Reserved Memory Test
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.6700153Z
+    Timestamp=1798289726176
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: WDDM CCD Test for verifying only one internal target active on GPU
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.6856406Z
+    Timestamp=1798289759261
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: Assessment - Boot Performance (Fast Startup)
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.7012650Z
+    Timestamp=1798289782268
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: WNGlitchfree HD Video Playback on AC ( Manual on mobile systems )
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.7012650Z
+    Timestamp=1798289800848
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: Glitchfree Low-period Full-duplex Audio Playback & Capture test under stress
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.7168899Z
+    Timestamp=1798289832792
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: TPM 2.0 - Supplemental test
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.7168899Z
+    Timestamp=1798289851858
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: Secure Boot Test - Customized Deployment Basic Test
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.7325144Z
+    Timestamp=1798289871980
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: System - Embedded Signature Verification
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.7325144Z
+    Timestamp=1798289883639
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: Windows System Check For WDDM
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.7481392Z
+    Timestamp=1798289895043
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: Secure Boot Manual Logo Test
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.7481392Z
+    Timestamp=1798289919157
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: Assessment - Standby Performance
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.7481392Z
+    Timestamp=1798289930537
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: Assessment - Hibernate Performance
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.7637648Z
+    Timestamp=1798289954740
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: BitLocker Tpm and Recovery password tests for NONAOAC devices with PCR[7]
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.7637648Z
+    Timestamp=1798289966632
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: Signed Driver Check (CheckLogo)
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.7793901Z
+    Timestamp=1798289993552
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: UEFI GOP mode test
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.7793901Z
+    Timestamp=1798290009927
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: USB Exposed Port System Test
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.7950146Z
+    Timestamp=1798290027090
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: KeDelayExecutionThread Test
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.7950146Z
+    Timestamp=1798290041206
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: H264 HW-DRM Test 3
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.7950146Z
+    Timestamp=1798290054751
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: Brightness Test
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.8106398Z
+    Timestamp=1798290082992
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: HEVC HW-DRM Test 9
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.8262650Z
+    Timestamp=1798290097417
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: Assessment - Windows Store Apps Performance
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.8262650Z
+    Timestamp=1798290135271
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: Glitchfree Low-period Audio Capture test
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.8418895Z
+    Timestamp=1798290164134
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: Glitchfree Low-period Full-duplex Audio Playback & Capture test
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.8575155Z
+    Timestamp=1798290198926
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: H264 SW-DRM Test 3
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.8731415Z
+    Timestamp=1798290223855
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: Assessment - Internet Explorer Security Software Impact
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.8731415Z
+    Timestamp=1798290257104
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: WDDM PnPStopModeSwitch Test
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.8887652Z
+    Timestamp=1798290285451
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: System Transcode Faster Than Real Time on Battery (DC) Power Source ( Manual on mobile devices )
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.9043916Z
+    Timestamp=1798290320811
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: Assessment - Driver Verification
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.9200161Z
+    Timestamp=1798290357745
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: Boot Test (SYSTEM)
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.9356421Z
+    Timestamp=1798290421091
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: Battery Validation - Drain Test
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.9512654Z
+    Timestamp=1798290444795
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: USB Internal Device Idle Test - Compat
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.9668911Z
+    Timestamp=1798290464003
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: Brightness2 Test
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.9668911Z
+    Timestamp=1798290494404
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: Check PM Profile
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.9825163Z
+    Timestamp=1798290532359
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: HEVC SW-DRM Test 9
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.9981411Z
+    Timestamp=1798290554151
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: System - PNP (disable and enable) with IO Before and After (Reliability)
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.9981411Z
+    Timestamp=1798290566357
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: USB xHCI Transfer Speed Test
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:58.9981411Z
+    Timestamp=1798290577436
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: HEVC HW-DRM Test 8
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:59.0137648Z
+    Timestamp=1798290600395
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: Assessment - Boot Performance (Full Boot)
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:59.0137648Z
+    Timestamp=1798290612972
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: System Network Device Power Requirements (NDISTest 6.5 - PM_Requirements)
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:59.0137648Z
+    Timestamp=1798290624154
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: Glitchfree Low-period Audio Playback test
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:59.0293905Z
+    Timestamp=1798290649007
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: Verify System.Fundamentals.Security.VirtualizationSupport
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:59.0293905Z
+    Timestamp=1798290660602
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: Verify Graphics Device Count is one
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:59.0450153Z
+    Timestamp=1798290678699
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: USB3 Termination
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:59.0450153Z
+    Timestamp=1798290690710
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: Watchdog Timer Test
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:59.0450153Z
+    Timestamp=1798290701635
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: TDI filters and LSPs are not allowed
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:59.0606402Z
+    Timestamp=1798290726831
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: Processor Power Management
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:59.0606402Z
+    Timestamp=1798290738561
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: Battery Validation - Drain Test Reset
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:59.0762650Z
+    Timestamp=1798290753570
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: H264 SW-DRM Test 2
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:59.0762650Z
+    Timestamp=1798290767920
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: WindowsToGo Boot Test
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:59.0762650Z
+    Timestamp=1798290781564
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: TPM 2.0 TCG Physical Presence Interface 1.3 Test
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:59.0918899Z
+    Timestamp=1798290819097
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: H264 HW-DRM Test 5
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:59.1075155Z
+    Timestamp=1798290851169
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: Single Computer Display Object test
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:59.1231419Z
+    Timestamp=1798290888344
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: Assessment - Minifilter Diagnostic - Boot Performance (Fast Startup)
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:59.1387672Z
+    Timestamp=1798290912656
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: xHCI Debug Capability Compliance (Logo)
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:59.1387672Z
+    Timestamp=1798290945868
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: System - Sleep with IO Before and After (Reliability SysFund)
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:59.1543909Z
+    Timestamp=1798290970865
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: Verify Device Driver Is WDDM
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:59.1700161Z
+    Timestamp=1798291009930
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: H264 HW-DRM Test 1
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:59.1700161Z
+    Timestamp=1798291029080
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: Glitchfree Low-period Audio Playback test under stress
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:59.1856402Z
+    Timestamp=1798291053614
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: HEVC HW-DRM Test 6
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:59.2012662Z
+    Timestamp=1798291073254
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: H264 SW-DRM Test 1
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:59.2012662Z
+    Timestamp=1798291103688
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: HEVC SW-DRM Test 8
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:59.2168911Z
+    Timestamp=1798291125774
+HLK (Execution) Warning: 0 : [AdaptiveResourceOptimizedScheduler]         Skip not in collection test: USB Generic HID Test
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:59.2168911Z
+    Timestamp=1798291144275
+HLK (Execution) Information: 0 : [AdaptiveResourceOptimizedScheduler]     Step: Resolve test runtime parameters.
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:59.2168911Z
+    Timestamp=1798291147384
+HLK (Execution) Information: 0 : [AdaptiveResourceOptimizedScheduler]     Step: Group by multi-device aware test, total number of test: 1
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:59.2325155Z
+    Timestamp=1798291179956
+HLK (Execution) Information: 0 : [AdaptiveResourceOptimizedScheduler]     Step: Store multi-device test for future scheduling, number of test: 0
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:59.2481415Z
+    Timestamp=1798291198757
+HLK (Execution) Information: 0 : [AdaptiveResourceOptimizedScheduler]     Step: Create schedule requests for non-multi-device test, number of test: 1
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:59.2481415Z
+    Timestamp=1798291211450
+HLK (Execution) Information: 0 : [AdaptiveResourceOptimizedScheduler]     Step: Set initial test generation.
+    ProcessId=2808
+    DateTime=2018-02-17T14:26:59.2793893Z
+    Timestamp=1798291302135
+HLK (Execution) Information: 0 : [AdaptiveResourceOptimizedScheduler] Project: XMLTEST
+    Schedule: BitLocker Drive Encryption USB BIOS Logo Test
+    Machine: DESKTOP-8E743RN
+    Test is running or queued.
+
+    ProcessId=2808
+    DateTime=2018-02-17T14:27:03.8575240Z
+    Timestamp=1798303186588
+HLK (Execution) Information: 0 : [AdaptiveResourceOptimizedScheduler] Project: XMLTEST
+    Update:  2018/02/17 06:27:03
+    Passed:  0
+    Failed:  0
+    Not run: 0
+    Running: 0
+    Work queue count: 1 | Available machine count: 0
+
+    ProcessId=2808
+    DateTime=2018-02-17T14:27:04.0450261Z
+    Timestamp=1798303657882
+HLK (Execution) Information: 0 : [AdaptiveResourceOptimizedScheduler]     Step: Create schedule requests for multi-device, number of test: 0
+    ProcessId=2808
+    DateTime=2018-02-17T14:27:09.2939109Z
+    Timestamp=1798317289167
+HLK (Execution) Information: 0 : [AdaptiveResourceOptimizedScheduler] Project: XMLTEST
+    Test generation exit.
+
+    ProcessId=2808
+    DateTime=2018-02-17T14:27:09.2939109Z
+    Timestamp=1798317304081
+HLK (Execution) Information: 0 : [AdaptiveResourceOptimizedScheduler] Project: XMLTEST
+    Update:  2018/02/17 06:27:14
+    Passed:  0
+    Failed:  0
+    Not run: 0
+    Running: 1
+    Work queue count: 1 | Available machine count: 0
+
+    ProcessId=2808
+    DateTime=2018-02-17T14:27:15.0826600Z
+    Timestamp=1798332342115
+HLK (Execution) Information: 0 : [AdaptiveResourceOptimizedScheduler] Project: XMLTEST
+    Update:  2018/02/17 06:27:26
+    Passed:  0
+    Failed:  0
+    Not run: 0
+    Running: 1
+    Work queue count: 1 | Available machine count: 0
+
+    ProcessId=2808
+    DateTime=2018-02-17T14:27:26.7129606Z
+    Timestamp=1798362547647
+HLK (Execution) Information: 0 : [AdaptiveResourceOptimizedScheduler] Project: XMLTEST
+    Update:  2018/02/17 06:27:36
+    Passed:  0
+    Failed:  1
+    Not run: 0
+    Running: 0
+    Work queue count: 1 | Available machine count: 0
+
+    ProcessId=2808
+    DateTime=2018-02-17T14:27:36.8198408Z
+    Timestamp=1798388829942
+HLK (Execution) Information: 0 : [AdaptiveResourceOptimizedScheduler] Resource is available: DESKTOP-8E743RN
+    ProcessId=2808
+    DateTime=2018-02-17T14:27:36.8354664Z
+    Timestamp=1798388851703
+HLK (Execution) Information: 0 : [AdaptiveResourceOptimizedScheduler] Updating status file with new result : 2018/02/17 06:27:36
+    ProcessId=2808
+    DateTime=2018-02-17T14:27:36.8354664Z
+    Timestamp=1798388855514
+HLK (Execution) Information: 0 : [AdaptiveResourceOptimizedScheduler] Project: XMLTEST
+    Scheduler exit.
+
+    ProcessId=2808
+    DateTime=2018-02-17T14:27:46.7662044Z
+    Timestamp=1798414649037
+HLK (Execution) Information: 0 : [AdaptiveResourceOptimizedScheduler] Project: XMLTEST
+    Update:  2018/02/17 06:27:47
+    Passed:  0
+    Failed:  1
+    Not run: 0
+    Running: 0
+    Work queue count: 0 | Available machine count: 1
+
+    ProcessId=2808
+    DateTime=2018-02-17T14:27:47.9068350Z
+    Timestamp=1798417626794
+HLK (Execution) Information: 0 : [AdaptiveResourceOptimizedScheduler] Project: XMLTEST
+    Update:  2018/02/17 06:27:47
+    Passed:  0
+    Failed:  1
+    Not run: 0
+    Running: 0
+    Work queue count: 0 | Available machine count: 1
+    All test completed.
+
+    ProcessId=2808
+    DateTime=2018-02-17T14:27:47.9380835Z
+    Timestamp=1798417677582
+HLK (Execution) Information: 0 : [AdaptiveResourceOptimizedScheduler] Updating status file with new result : 2018/02/17 06:27:47
+    ProcessId=2808
+    DateTime=2018-02-17T14:27:47.9380835Z
+    Timestamp=1798417680399
+HLK (Execution) Information: 0 : [AdaptiveResourceOptimizedScheduler] Project: XMLTEST
+    Completion exit.
+
+    ProcessId=2808
+    DateTime=2018-02-17T14:27:48.1724587Z
+    Timestamp=1798418313829
+HLK (Execution) Information: 0 : [AdaptiveResourceOptimizedScheduler] Project: XMLTEST
+    Cancellation monitor exit.
+
+    ProcessId=2808
+    DateTime=2018-02-17T14:27:48.1724587Z
+    Timestamp=1798418319395
+HLK (Execution) Information: 0 : [Run] Waiting for thread to complete: 8
+    ProcessId=2808
+    DateTime=2018-02-17T14:27:48.1880855Z
+    Timestamp=1798418338153
+HLK (Execution) Information: 0 : [Run] Waiting for thread to complete: 9
+    ProcessId=2808
+    DateTime=2018-02-17T14:27:48.1880855Z
+    Timestamp=1798418341910
+HLK (Execution) Information: 0 : [AdaptiveResourceOptimizedScheduler] Project: XMLTEST
+    MachineMonitor exit.
+
+    ProcessId=2808
+    DateTime=2018-02-17T14:27:49.3242536Z
+    Timestamp=1798421275465
+HLK (Execution) Information: 0 : [Run] Waiting for thread to complete: 10
+    ProcessId=2808
+    DateTime=2018-02-17T14:27:49.3242536Z
+    Timestamp=1798421286098
+HLK (Execution) Information: 0 : [Run] Waiting for thread to complete: 11
+    ProcessId=2808
+    DateTime=2018-02-17T14:27:49.3242536Z
+    Timestamp=1798421289461
+HLK (Execution) Information: 0 : [Run] All projects scheduled.
+    ProcessId=2808
+    DateTime=2018-02-17T14:27:49.3242536Z
+    Timestamp=1798421292320
+HLK (Execution) Information: 0 : [Filter] The ApplyFilters flag was not present or was not a valid bool value. Skipping applying filters for Project: XMLTEST_2018-02-17T06-26-39-61
+    ProcessId=2808
+    DateTime=2018-02-17T14:27:49.3242536Z
+    Timestamp=1798421303736
+HLK (Execution) Information: 0 : [Verify] 
+Project: XMLTEST
+Successfully verified project.
+
+    ProcessId=2808
+    DateTime=2018-02-17T14:27:51.3086315Z
+    Timestamp=1798426456647
+HLK (Execution) Information: 0 : [Package] 
+Package project: XMLTEST
+    Step: Verify user specified package path in project definition file.
+        No package path specified, use default.
+        Package: C:\Users\Administrator\Documents\HCK Execution Engine\2018-02-17T06-26-37-26
+Successfully created package C:\Users\Administrator\Documents\HCK Execution Engine\2018-02-17T06-26-37-26\XMLTEST_2018-02-17T06-26-39-61.hlkx.
+
+    ProcessId=2808
+    DateTime=2018-02-17T14:29:11.4573401Z
+    Timestamp=1798634654662
+HLK (Execution) Information: 0 : [Cleanup] Start: Clean Project
+Project: XMLTEST
+    User provided pool name: XMLTEST_2018-02-17T06-26-39-61
+    Pool will not be deleted.
+End: Clean Project
+
+    ProcessId=2808
+    DateTime=2018-02-17T14:29:11.4729650Z
+    Timestamp=1798634697392
+HLK (Execution) Information: 0 : [Disconnect] 
+Close Connection.
+Successfully closed database connection.
+
+    ProcessId=2808
+    DateTime=2018-02-17T14:29:11.4885879Z
+    Timestamp=1798634712412
+HLK (Execution) Information: 0 : [Program] HCK Execution engine completed.
+Log saved to: C:\Users\Administrator\Documents\HCK Execution Engine\2018-02-17T06-26-37-26\hckexecutionengine.log
+
+    ProcessId=2808
+    DateTime=2018-02-17T14:29:11.4885879Z
+    Timestamp=1798634726361

@@ -1,0 +1,13 @@
+﻿<ProjectDefinitionData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" User="" Controller="WIN-3HIHJ35D317" Database="HLKJobs">
+	<Project Name="XMLTEST" TestCollectionReadLocation="C:\Users\Administrator\Desktop\PDEF_Files\playlist.xml" TestCollectionStatusLocation="C:\Users\Administrator\Desktop\PDEF_Files\master_collection_status.xml" Timeout="120">
+		<MultiDeviceTestGroup>false</MultiDeviceTestGroup>
+		<TestStatusToSkip>Pass</TestStatusToSkip>
+		<Product Name="Windows_v10_0_Client_x64_RS3_Full" OsPlatform="Windows v10.0 Client x64 RS3 Full" CrashDumpCopyBack="" MachinePool="Default Pool">
+			<Family Name="SystemTest__2018-02-17T02-56-15-07">
+				<Target TargetType="System" Id="" />
+			</Family>
+			<Machine Name="DESKTOP-8E743RN" />
+		</Product>
+		<Packages Path="" />
+	</Project>
+</ProjectDefinitionData>

@@ -1,0 +1,120 @@
+HLK (Execution) Information: 0 : [Program] HCK Execution engine launched.
+    ProcessId=1944
+    DateTime=2018-02-17T14:29:59.8992277Z
+    Timestamp=1798760480270
+HLK (Execution) Information: 0 : [Action] 
+Using project definition file: C:\Users\Administrator\Desktop\PDEF_Files\test1.xml
+
+    ProcessId=1944
+    DateTime=2018-02-17T14:29:59.9148518Z
+    Timestamp=1798760510706
+HLK (Execution) Information: 0 : [Parse] Validating project: XMLTEST
+    ProcessId=1944
+    DateTime=2018-02-17T14:30:00.0242274Z
+    Timestamp=1798760822606
+HLK (Execution) Information: 0 : [Parse]     Step: Verify user specified test collection path in project definition file.
+    ProcessId=1944
+    DateTime=2018-02-17T14:30:00.0398530Z
+    Timestamp=1798760830190
+HLK (Execution) Information: 0 : [Parse]     Step: Verify user specified test collection status path in project definition file.
+    ProcessId=1944
+    DateTime=2018-02-17T14:30:00.0398530Z
+    Timestamp=1798760833382
+HLK (Execution) Information: 0 : [Parse]         Test Collection Status: C:\Users\Administrator\Desktop\PDEF_Files\master_collection_status.xml
+    ProcessId=1944
+    DateTime=2018-02-17T14:30:00.0398530Z
+    Timestamp=1798760835604
+HLK (Execution) Information: 0 : [Parse]     Step: Verify user specified test collection file does not overlap with the status collection file.
+    ProcessId=1944
+    DateTime=2018-02-17T14:30:00.0398530Z
+    Timestamp=1798760837807
+HLK (Execution) Information: 0 : [Parse] Import test collection for project: XMLTEST
+    ProcessId=1944
+    DateTime=2018-02-17T14:30:00.0398530Z
+    Timestamp=1798760852021
+HLK (Execution) Information: 0 : [Parse]     Step: Try to import test collection XML file.
+    ProcessId=1944
+    DateTime=2018-02-17T14:30:00.0398530Z
+    Timestamp=1798760854840
+HLK (Execution) Information: 0 : [Parse]         Test collection file: C:\Users\Administrator\Desktop\PDEF_Files\playlist.xml
+    ProcessId=1944
+    DateTime=2018-02-17T14:30:00.0398530Z
+    Timestamp=1798760857056
+HLK (Execution) Information: 0 : [Parse] Reduce test collection for current executing project: XMLTEST
+    ProcessId=1944
+    DateTime=2018-02-17T14:30:00.0867268Z
+    Timestamp=1798760971895
+HLK (Execution) Information: 0 : [Parse]         Added test: BitLocker Drive Encryption USB BIOS Logo Test
+    ProcessId=1944
+    DateTime=2018-02-17T14:30:00.1023528Z
+    Timestamp=1798761001380
+HLK (Execution) Information: 0 : [Parse] 
+Parse project definition file.
+Load project definition file: C:\Users\Administrator\Desktop\PDEF_Files\test1.xml
+Successfully loaded project definition file.
+
+    ProcessId=1944
+    DateTime=2018-02-17T14:30:00.1023528Z
+    Timestamp=1798761005878
+HLK (Execution) Information: 0 : [Connect] 
+Connecting to controller: WIN-3HIHJ35D317
+Connecting to database: HLKJobs
+Successfully opened database connection.
+
+    ProcessId=1944
+    DateTime=2018-02-17T14:30:01.3370186Z
+    Timestamp=1798764234679
+HLK (Execution) Information: 0 : [Create] Start: Create Project.
+
+Checking project data in project definition file.
+Checking family and target for valid target combinations.
+End:  Check Family and Target For Valid Target Combinations.
+User specified project name: XMLTEST
+Create HCK project name: XMLTEST_2018-02-17T06-30-01-36
+Successfully created project.
+Start: Create Filters
+End: Create Filters
+Start: Create Products
+OS platform for the product: Windows v10.0 Client x64 RS3 Full
+Start: Create Machines and Pool
+Create machine pool: XMLTEST_2018-02-17T06-30-01-36
+Successfully created machine pool.
+Search for machines in pool: Default Pool
+Checking machine: DESKTOP-OFP5E3P
+Machine will not be used for automation, state: Debug
+No matching system under test found in machine pool: Default Pool
+End: Create Machines
+End: Create Products
+End: Create Project
+
+    ProcessId=1944
+    DateTime=2018-02-17T14:30:02.3995180Z
+    Timestamp=1798766967060
+HLK (Execution) Error: 0 : [Create] Encountered an error before completion, initiate early clean-up process
+Microsoft.Windows.Kits.Hardware.Certification.ExecutionEngineException: Failed to create project due to data error in project definition file. ---> Microsoft.Windows.Kits.Hardware.Certification.ProjectClientException: No matching system under test found in machine pool: Default Pool
+   at Microsoft.Windows.Kits.Hardware.Certification.ProjectClient.CreateMachineAndPool(ProductXmlData productXmlData, StringBuilder eventMessageBuilder)
+   at Microsoft.Windows.Kits.Hardware.Certification.ProjectClient.CreateProduct(ProjectXmlData projectXmlData, StringBuilder eventMessageBuilder)
+   at Microsoft.Windows.Kits.Hardware.Certification.ProjectClient.CreateProject(ProjectXmlData projectXmlData, StringBuilder eventMessageBuilder)
+   at Microsoft.Windows.Kits.Hardware.Certification.Create.Execute()
+   --- End of inner exception stack trace ---
+   at Microsoft.Windows.Kits.Hardware.Certification.Create.Execute()
+   at Microsoft.Windows.Kits.Hardware.Certification.Program.Main(String[] args)
+
+    ProcessId=1944
+    DateTime=2018-02-17T14:30:02.3995180Z
+    Timestamp=1798766981834
+    Callstack=   at System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   at System.Environment.get_StackTrace()
+   at System.Diagnostics.TraceEventCache.get_Callstack()
+   at System.Diagnostics.TraceListener.WriteFooter(TraceEventCache eventCache)
+   at System.Diagnostics.TraceSource.TraceData(TraceEventType eventType, Int32 id, Object data)
+   at Microsoft.Windows.Kits.Hardware.Logging.TraceLogger.Log(String message, MessageType type, Int32 eventId, String category)
+   at Microsoft.Windows.Kits.Hardware.Logging.TraceLogger.Log(String message, MessageType type, String category)
+   at Microsoft.Windows.Kits.Hardware.Certification.Program.WriteLog(String message, MessageType type, String category, Boolean writeConsole)
+   at Microsoft.Windows.Kits.Hardware.Certification.Program.Main(String[] args)
+HLK (Execution) Information: 0 : [Program] HCK Execution engine completed.
+Log saved to: C:\Users\Administrator\Documents\HCK Execution Engine\2018-02-17T06-29-59-86\hckexecutionengine.log
+
+    ProcessId=1944
+    DateTime=2018-02-17T14:30:02.3995180Z
+    Timestamp=1798766992894
