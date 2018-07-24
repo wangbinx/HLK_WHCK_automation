@@ -4,6 +4,7 @@
 #Windows Hardware Lab Kit: https://docs.microsoft.com/en-us/windows-hardware/test/hlk/what-s-new-in-the-hardware-lab-kit
 #Detail document for HLK automation: https://docs.microsoft.com/en-us/windows-hardware/test/hlk/user/hlk-automation-tool
 #
+#
 import os
 import sys
 import re
